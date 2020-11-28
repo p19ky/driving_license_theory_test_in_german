@@ -1,12 +1,18 @@
 package edu.ubb;
 
+import edu.ubb.views.Prufung;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
 import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.FileInputStream;
@@ -15,17 +21,30 @@ import java.io.InputStream;
 
 public class Main extends Application{
 
-//    public static void main(String[] args){
-//    }
+    Stage window;
+
+    Scene sceneStart, scene2;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        window = primaryStage;
 
+        Label titel = new Label("Führerschein Theorieprüfung");
+        titel.setStyle("-fx-font-size: 32px");
 
-        Parent root = FXMLLoader.load(getClass().getResource("view.fxml"));
-        primaryStage.setTitle("Führerscheintheorieprüfung");
-        primaryStage.setScene(new Scene(root, 595, 600)); //v:width v1:height
-        primaryStage.show();
+        Button startButton = new Button("Start Prüfung");
+        startButton.setPadding(new Insets(5,5,5,5));
+
+        startButton.setOnAction(e -> Prufung.display(window));
+
+        VBox startLayout = new VBox(20);
+        startLayout.setStyle("-fx-alignment: center");
+        startLayout.getChildren().addAll(titel, startButton);
+
+        sceneStart = new Scene(startLayout, 500, 500);
+        window.setTitle("Führerschein Theorieprüfung");
+        window.setScene(sceneStart);
+        window.show();
 
     }
 
@@ -34,3 +53,5 @@ public class Main extends Application{
         launch(args);
     }
 }
+
+//        Parent root = FXMLLoader.load(getClass().getResource("view.fxml"));

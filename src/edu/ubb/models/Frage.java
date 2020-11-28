@@ -1,4 +1,4 @@
-package edu.ubb.model;
+package edu.ubb.models;
 
 import edu.ubb.exceptions.ImageLoadException;
 

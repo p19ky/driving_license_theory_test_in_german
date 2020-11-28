@@ -1,4 +1,4 @@
-package edu.ubb.model;
+package edu.ubb.models;
 
 import java.util.ArrayList;
 import java.util.Collections;

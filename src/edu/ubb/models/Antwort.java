@@ -1,4 +1,4 @@
-package edu.ubb.model;
+package edu.ubb.models;
 
 public class Antwort {
     private Integer id;
