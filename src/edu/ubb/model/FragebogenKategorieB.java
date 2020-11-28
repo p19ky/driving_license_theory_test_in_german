@@ -1,6 +1,9 @@
 package edu.ubb.model;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class FragebogenKategorieB {
     private Integer id;
@@ -15,6 +18,28 @@ public class FragebogenKategorieB {
         this.anzahlFalscheAntworten = anzahlFalscheAntworten;
         this.anzahlRichtigeAntworten = anzahlRichtigeAntworten;
         this.fragen = fragen;
+    }
+
+    /**
+     * Funktion die zufallige Fragen von die fragen Liste wiedergibt.
+     * @param anzahlFragen wie viele Fragen sollen ruckgegeben werden.
+     * @return liste von Fragen.
+     */
+    public List<Frage> getZuffaligeFragen(Integer anzahlFragen) {
+        var listVonResultierendeFragen = new ArrayList<Frage>();
+        var listVonFragen = new ArrayList<Frage>();
+        Collections.copy(listVonFragen, fragen);
+
+        Random rand = new Random();
+
+        for (int i = 0; i < anzahlFragen; i++) {
+            int randomIndex = rand.nextInt(listVonFragen.size());
+            Frage randomElement = listVonFragen.get(randomIndex);
+            listVonFragen.remove(randomIndex);
+            listVonResultierendeFragen.add(randomElement);
+        }
+
+        return listVonFragen;
     }
 
     /**
