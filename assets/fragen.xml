@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<fragen>
+    <frage id="0">
+        <name>Was führt häufig zu schweren Unfällen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Eine mangelhafte Beobachtung des Verkehrs</moglich>
+            <moglich id="1">Eine unangepasste Geschwindigkeit</moglich>
+            <moglich id="2">Ein Fahren mit zu geringem Abstand</moglich>
+        </mogliche>
+    </frage>
+    <frage id="1">
+        <name>Welche Fahrzeuge dürfen diese Straße benutzen?</name>
+        <richtige>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Kraftfahrzeuge</moglich>
+            <moglich id="1">Elektrofahrzeuge</moglich>
+            <moglich id="2">Fahrräder und Krafträder, die geschoben werden</moglich>
+        </mogliche>
+    </frage>
+    <frage id="2">
+        <name>Was ist außerorts auf Vorfahrtstraßen erlaubt?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Halten am rechten Fahrbahnrand</moglich>
+            <moglich id="1">Parken auf dem Seitenstreifen</moglich>
+            <moglich id="2">Parken auf der Fahrbahn</moglich>
+        </mogliche>
+    </frage>
+    <frage id="3">
+        <name>Sie erhöhen Ihre Geschwindigkeit von 50 km/h auf 100 km/h. Wie verändert sich der Reaktionsweg entsprechend der Faustformel?</name>
+        <richtige>
+            <richtig>0</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Er verdoppelt sich von 15 m auf 30 m</moglich>
+            <moglich id="1">Er halbiert sich von 50 m auf 25 m</moglich>
+            <moglich id="2">Er vervierfacht sich von 25 m auf 100 m</moglich>
+        </mogliche>
+    </frage>
+    <frage id="4">
+        <name>Sie nähern sich Kindern, die auf dem Gehweg spielen. Wie müssen Sie sich verhalten?</name>
+        <richtige>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Unverändert weiterfahren, um den nachfolgenden Verkehr nicht zu behindern</moglich>
+            <moglich id="1">Langsamer fahren und bremsbereit sein</moglich>
+            <moglich id="2">Hupen und weiterfahren</moglich>
+        </mogliche>
+    </frage>
+    <frage id="5">
+        <name>Was ist für umweltschonendes und energiesparendes Fahren wichtig?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Regelmäßig Motoreinstellung überprüfen lassen</moglich>
+            <moglich id="1">Regelmäßige Motorwäsche, mindestens viermal im Jahr</moglich>
+            <moglich id="2">Kraftstoffverbrauch regelmäßig kontrollieren</moglich>
+        </mogliche>
+    </frage>
+    <frage id="6">
+        <name>Welche Gefühle können das Fahrverhalten beeinflussen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Angst und Trauer</moglich>
+            <moglich id="1">Ärger und Wut</moglich>
+            <moglich id="2">Freude und Ausgelassenheit</moglich>
+        </mogliche>
+    </frage>
+    <frage id="7">
+        <name>Ihr Pkw hat einen Defekt und ist nicht mehr fahrbereit. Was ist beim Abschleppen zu beachten?
+            Während des Abschleppens</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- ist das Abschleppseil möglichst straff zu halten</moglich>
+            <moglich id="1">- darf die Autobahn nur als Abkürzung zur nächsten Werkstatt benutzt werden</moglich>
+            <moglich id="2">- ist an beiden Fahrzeugen Warnblinklicht einzuschalten</moglich>
+        </mogliche>
+    </frage>
+    <frage id="8">
+        <name>Wie müssen Sie sich in dieser Verkehrssituation verhalten?
+            Ich muss</name>
+        <richtige>
+            <richtig>0</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- an der Sichtlinie anhalten und Vorfahrt gewähren</moglich>
+            <moglich id="1">- nicht anhalten, da keine Haltlinie vorhanden ist</moglich>
+            <moglich id="2">- nur bei Querverkehr anhalten</moglich>
+        </mogliche>
+    </frage>
+    <frage id="9">
+        <name>Was gilt hier?</name>
+        <richtige>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Ich muss in der Kreuzungsmitte anhalten</moglich>
+            <moglich id="1">Ich muss den Gegenverkehr durchfahren lassen</moglich>
+            <moglich id="2">Ich darf ungehindert abbiegen</moglich>
+        </mogliche>
+    </frage>
+    <frage id="10">
+        <name>Mit welchem Verhalten müssen Sie an solchen Haltestellen rechnen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Fußgänger verlassen die Haltestelleninsel unachtsam</moglich>
+            <moglich id="1">Fußgänger warten, bis die Fahrbahn frei ist</moglich>
+            <moglich id="2">Fußgänger rennen über die Fahrbahn zur Haltestelleninsel</moglich>
+        </mogliche>
+    </frage>
+    <frage id="11">
+        <name>Sie möchten aus dem Grundstück ausfahren. Was ist richtig?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Ich darf fahren, falls die Fußgänger auf ihren Vorrang verzichten</moglich>
+            <moglich id="1">Ich hupe kurz, damit mich die Fußgänger ausfahren lassen</moglich>
+            <moglich id="2">Ich muss warten, bis die Fußgänger die Ausfahrt überquert haben</moglich>
+        </mogliche>
+    </frage>
+    <frage id="12">
+        <name>Welches Fahrzeug muss warten, wenn eine Baustelle die halbe Fahrbahn blockiert?</name>
+        <richtige>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Immer das kleinere Fahrzeug</moglich>
+            <moglich id="1">Das Fahrzeug, auf dessen Seite die Baustelle ist</moglich>
+            <moglich id="2">Das Fahrzeug auf der freien Fahrbahnhälfte</moglich>
+        </mogliche>
+    </frage>
+    <frage id="13">
+        <name>Worauf weist dieses Verkehrszeichen hin?</name>
+        <richtige>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Auf das Ende der Autobahn</moglich>
+            <moglich id="1">Auf ein Verbot für Kraftwagen</moglich>
+            <moglich id="2">Auf das Ende der Kraftfahrstraße</moglich>
+        </mogliche>
+    </frage>
+    <frage id="14">
+        <name>Ihr Kraftfahrzeug verliert etwas Öl. Wie viel Trinkwasser kann bereits durch einen Tropfen Öl ungenießbar werden?
+            Bis zu</name>
+        <richtige>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">50 Liter</moglich>
+            <moglich id="1">600 Liter</moglich>
+            <moglich id="2">1 Liter</moglich>
+        </mogliche>
+    </frage>
+    <frage id="15">
+        <name>Auf einer Fahrbahn mit mehreren Fahrstreifen für eine Richtung endet ein Fahrstreifen. Wie haben Sie sich auf dem durchgehenden Fahrstreifen zu verhalten?
+            Ich muss</name>
+        <richtige>
+            <richtig>0</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- den am Weiterfahren gehinderten Fahrzeugen den Übergang nach dem Reißverschlussverfahren ermöglichen</moglich>
+            <moglich id="1">- Blickkontakt aufnehmen und dann je nach Situation entscheiden</moglich>
+            <moglich id="2">- an den am Weiterfahren gehinderten Fahrzeugen vorbeifahren</moglich>
+        </mogliche>
+    </frage>
+    <frage id="16">
+        <name>Sie fahren 40 km/h. Bei einer Gefahrbremsung beträgt der Bremsweg ca. 8 Meter. Wie lang ist der Bremsweg unter sonst gleichen Bedingungen bei 50 km/h?</name>
+        <richtige>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">9,5 m</moglich>
+            <moglich id="1">11,0 m</moglich>
+            <moglich id="2">12,5 m</moglich>
+        </mogliche>
+    </frage>
+    <frage id="17">
+        <name>Ihr Fahrzeug ist eingeschneit. Was müssen Sie tun, bevor Sie losfahren?
+            Ich muss Eis und Schnee</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- vom Fahrzeugdach entfernen</moglich>
+            <moglich id="1">- von den Scheiben entfernen</moglich>
+            <moglich id="2">- von den Spiegeln entfernen</moglich>
+        </mogliche>
+    </frage>
+    <frage id="18">
+        <name>Wann besteht die Gefahr, dass die eigene Geschwindigkeit unterschätzt wird?</name>
+        <richtige>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Wenn die Randbebauung der Straße ständig wechselt</moglich>
+            <moglich id="1">Wenn man schon lange mit höherer Geschwindigkeit gefahren ist</moglich>
+            <moglich id="2">Wenn die Straße breit und ohne Randbebauung ist</moglich>
+        </mogliche>
+    </frage>
+    <frage id="19">
+        <name>Vor Ihnen will ein großer Mähdrescher nach rechts abbiegen. Was ist richtig?
+            Der Mähdrescher</name>
+        <richtige>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- kann wegen der Hinterradlenkung nicht ausschwenken</moglich>
+            <moglich id="1">- wird beim Abbiegen weit nach links ausschwenken</moglich>
+            <moglich id="2">- wird vor dem Abbiegen sehr langsam werden</moglich>
+        </mogliche>
+    </frage>
+    <frage id="20">
+        <name>Was ist bei diesen Verkehrszeichen erlaubt?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Schwerbehinderte mit entsprechend nummeriertem Parkausweis dürfen hier parken</moglich>
+            <moglich id="1">Das Halten zum Ein- oder Aussteigen für jeden</moglich>
+            <moglich id="2">Mit einem Parkschein aus einem Parkscheinautomaten darf hier jeder unbegrenzt parken</moglich>
+        </mogliche>
+    </frage>
+    <frage id="21">
+        <name>Was gilt auf Autobahnen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Halten auf der Fahrbahn und auf dem Seitenstreifen verboten</moglich>
+            <moglich id="1">Rückwärtsfahren verboten</moglich>
+            <moglich id="2">Bei Dunkelheit darf unter keinen Umständen schneller gefahren werden, als es die Reichweite des Abblendlichts zulässt</moglich>
+        </mogliche>
+    </frage>
+    <frage id="22">
+        <name>Womit müssen Sie rechnen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Mit einem Hindernis hinter der Kurve</moglich>
+            <moglich id="1">Mit einer gefährlichen Linkskurve</moglich>
+            <moglich id="2">Mit Querverkehr vor der Kuppe</moglich>
+        </mogliche>
+    </frage>
+    <frage id="23">
+        <name>Worauf weist dieses Verkehrszeichen hin?
+            Auf Vorfahrt</name>
+        <richtige>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- bis zum Ortsende</moglich>
+            <moglich id="1">- nur an der nächsten Kreuzung oder Einmündung</moglich>
+            <moglich id="2">- an allen Kreuzungen und Einmündungen dieser Straße</moglich>
+        </mogliche>
+    </frage>
+    <frage id="24">
+        <name>Worauf sollten Sie Mitfahrer vor dem Aussteigen hinweisen?
+            Darauf, dass</name>
+        <richtige>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- an Radwegen Radfahrer wartepflichtig sind</moglich>
+            <moglich id="1">- nach rechts auf Fußgänger zu achten ist</moglich>
+            <moglich id="2">- nach links der fließende Verkehr zu beachten ist</moglich>
+        </mogliche>
+    </frage>
+    <frage id="25">
+        <name>In welchen Fällen müssen Sie eine Änderung der Fahrtrichtung anzeigen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Wenn ich dem Verlauf einer abknickenden Vorfahrtstraße folgen will</moglich>
+            <moglich id="1">Wenn ich eine abknickende Vorfahrtstraße in gerader Richtung verlassen will</moglich>
+            <moglich id="2">Vor dem Abbiegen in eine Einmündung oder in ein Grundstück</moglich>
+        </mogliche>
+    </frage>
+    <frage id="26">
+        <name>Was müssen Sie tun, wenn Sie unterwegs feststellen, dass Ihr Fahrzeug nicht mehr verkehrssicher ist?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Das Fahrzeug auf kürzestem Weg aus dem Verkehr ziehen</moglich>
+            <moglich id="1">Erst nach Beseitigung des Schadens weiterfahren</moglich>
+            <moglich id="2">Bis zur nächsten Vertragswerkstatt weiterfahren</moglich>
+        </mogliche>
+    </frage>
+    <frage id="27">
+        <name>Wofür müssen Sie vor Antritt einer Fahrt mit Ihrem Pkw sorgen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Dass Sie nach hinten ausreichende Sicht haben</moglich>
+            <moglich id="1">Dass keine Gegenstände (z. B. Verbandkasten, Autoatlas, Fotoapparat) lose auf der hinteren Ablage liegen</moglich>
+            <moglich id="2">Dass auch die Mitfahrer die vorhandenen Sicherheitsgurte anlegen können</moglich>
+        </mogliche>
+    </frage>
+    <frage id="28">
+        <name>Auf meiner Fahrtroute befindet sich ein Tunnel. Was sollte ich wissen?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Ich sollte wissen, wie Fluchtwege in Tunneln ausgewiesen sind</moglich>
+            <moglich id="1">Ich kann darauf vertrauen, dass im Notfall immer rechtzeitig Hilfskräfte zur Stelle sind</moglich>
+            <moglich id="2">Ich sollte wissen, wie ich mein Fahrzeug abstelle und verlasse, wenn ich nicht mehr weiterfahren kann</moglich>
+        </mogliche>
+    </frage>
+    <frage id="29">
+        <name>Wer darf in eine so beschilderte Straße einfahren?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Besucher der Bewohner</moglich>
+            <moglich id="1">Bewohner</moglich>
+            <moglich id="2">Fahrzeuge im Durchgangsverkehr</moglich>
+        </mogliche>
+    </frage>
+    <frage id="30">
+        <name>Wann müssen Sie vor einem Bahnübergang warten?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Wenn sich die Schranken senken</moglich>
+            <moglich id="1">Wenn ein Bahnbediensteter eine weiß-rot-weiße Fahne schwenkt</moglich>
+            <moglich id="2">Wenn rotes Blinklicht aufleuchtet</moglich>
+        </mogliche>
+    </frage>
+    <frage id="31">
+        <name>Wie schätzen Sie die Situation ein?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Die Fußgängerin kann unachtsam die Fahrbahn betreten</moglich>
+            <moglich id="1">Der Fußgänger mit dem Mofa kann plötzlich die Richtung ändern</moglich>
+            <moglich id="2">Ich kann unvermindert weiterfahren</moglich>
+        </mogliche>
+    </frage>
+    <frage id="32">
+        <name>Wann dürfen Sie in eine Umweltzone einfahren?</name>
+        <richtige>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Wenn Ihr Pkw schadstoffarm ist</moglich>
+            <moglich id="1">Wenn Ihr Pkw Sonderrechte in Anspruch nehmen kann</moglich>
+            <moglich id="2">Wenn Ihr Pkw mit einer entsprechenden Feinstaub-Plakette gekennzeichnet ist</moglich>
+        </mogliche>
+    </frage>
+    <frage id="33">
+        <name>Welches Verhalten ist richtig?</name>
+        <richtige>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Ich darf schon jetzt abbiegen</moglich>
+            <moglich id="1">Der gelbe Pkw muss die Kreuzung räumen</moglich>
+            <moglich id="2">Ich muss mich auf die Weiterfahrt vorbereiten</moglich>
+        </mogliche>
+    </frage>
+    <frage id="34">
+        <name>Was endet hier?</name>
+        <richtige>
+            <richtig>0</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Eine Vorfahrtstraße</moglich>
+            <moglich id="1">Ein Zonenhaltverbot</moglich>
+            <moglich id="2">Vorausgegangene Streckenverbote</moglich>
+        </mogliche>
+    </frage>
+    <frage id="35">
+        <name>Sie möchten außerhalb geschlossener Ortschaften auf einer schmalen Allee überholen. Worauf müssen Sie besonders achten?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Fahrzeuge mit hohen Aufbauten weichen häufig Ästen aus</moglich>
+            <moglich id="1">Fehleinschätzungen von Abständen und Gegenverkehr führen häufig zu schweren Unfällen</moglich>
+            <moglich id="2">Wegen der geringen Fahrbahnbreite können selbst Radfahrer bei Gegenverkehr häufig nicht überholt werden</moglich>
+        </mogliche>
+    </frage>
+    <frage id="36">
+        <name>Welches Verhalten ist richtig?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Ich muss den Radfahrer durchfahren lassen</moglich>
+            <moglich id="1">Ich darf vor dem Radfahrer abbiegen</moglich>
+            <moglich id="2">Ich muss den [Motorradfahrer] durchfahren lassen</moglich>
+        </mogliche>
+    </frage>
+    <frage id="37">
+        <name>Warum ist man nach dem Konsum der Droge "Crystal Meth" fahruntauglich?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Weil Wahnvorstellungen auftreten können</moglich>
+            <moglich id="1">Weil die eigene Leistungsfähigkeit überschätzt werden kann</moglich>
+            <moglich id="2">Weil plötzliche Erschöpfung eintreten kann</moglich>
+        </mogliche>
+    </frage>
+    <frage id="38">
+        <name>Welche Folge kann eine zu geringe Menge Kühlflüssigkeit im Motor haben?
+            Eine zu geringe Menge Kühlflüssigkeit kann</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">- zur Überhitzung des Motors führen</moglich>
+            <moglich id="1">- zur Erhöhung des Kraftstoffverbrauchs führen</moglich>
+            <moglich id="2">- zum Motorschaden führen</moglich>
+        </mogliche>
+    </frage>
+    <frage id="39">
+        <name>Sie wollen nach rechts abbiegen. Wie sollten Sie sich verhalten?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>1</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Den Radfahrer durchfahren lassen</moglich>
+            <moglich id="1">"Schulterblick" durchführen</moglich>
+            <moglich id="2">Vor dem Radfahrer abbiegen</moglich>
+        </mogliche>
+    </frage>
+    <frage id="40">
+        <name>Was haben Sie bei dieser Verkehrszeichenkombination zu beachten?</name>
+        <richtige>
+            <richtig>0</richtig>
+            <richtig>2</richtig>
+        </richtige>
+        <mogliche>
+            <moglich id="0">Die Straße führt auf ein Ufer zu</moglich>
+            <moglich id="1">Die Ein- und Ausfahrstelle für schwimmfähige Fahrzeuge ist frei zu halten</moglich>
+            <moglich id="2">Bei Dunkelheit oder schlechter Sicht kann Verwechslungsgefahr zwischen Wasseroberfläche und Fahrbahn bestehen</moglich>
+        </mogliche>
+    </frage>
+</fragen>
