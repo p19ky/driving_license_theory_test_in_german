@@ -1,9 +1,15 @@
 package edu.ubb.models;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class FragebogenKategorieB {
     private Integer id;
@@ -12,12 +18,14 @@ public class FragebogenKategorieB {
     private Integer anzahlRichtigeAntworten;
     private List<Frage> fragen;
 
-    public FragebogenKategorieB(Integer id, Integer fragebogennummer, Integer anzahlFalscheAntworten, Integer anzahlRichtigeAntworten, List<Frage> fragen) {
+    public FragebogenKategorieB(Integer id, Integer fragebogennummer, Integer anzahlFalscheAntworten, Integer anzahlRichtigeAntworten) {
         this.id = id;
         this.fragebogennummer = fragebogennummer;
         this.anzahlFalscheAntworten = anzahlFalscheAntworten;
         this.anzahlRichtigeAntworten = anzahlRichtigeAntworten;
-        this.fragen = fragen;
+        this.fragen = new ArrayList<>();
+
+        fragenVonXMLLaden();
     }
 
     /**
@@ -39,7 +47,77 @@ public class FragebogenKategorieB {
             listVonResultierendeFragen.add(randomElement);
         }
 
-        return listVonFragen;
+        return listVonResultierendeFragen;
+    }
+
+    /**
+     * parse-t und ladet die daten von das fragen.xml in die fragen List.
+     */
+    public void fragenVonXMLLaden() {
+        try {
+            File fXmlFile = new File("assets\\fragen.xml");
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(fXmlFile);
+
+            doc.getDocumentElement().normalize();
+
+            NodeList nList = doc.getElementsByTagName("frage");
+
+            for (int temp = 0; temp < nList.getLength(); temp++) {
+
+                Node nNode = nList.item(temp);
+
+//                System.out.println("\nCurrent Element :" + nNode.getNodeName());
+
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+                    Element eElement = (Element) nNode;
+
+                    String id = eElement.getAttribute("id");
+                    String dieEigentlicheFrage = eElement.getElementsByTagName("name").item(0).getTextContent();
+                    List<String> richtigeAntworteIds = Arrays.asList(eElement.getElementsByTagName("richtige").item(0).getTextContent().replaceAll("\\D+", "").split(""));
+                    List<String> moglischeAntworteListe = Arrays.asList(eElement.getElementsByTagName("mogliche").item(0).getTextContent().trim().replaceAll("  +", "").split("\n"));
+
+//                    System.out.println("frage id : " + eElement.getAttribute("id"));
+//                    System.out.println("Name : " + eElement.getElementsByTagName("name").item(0).getTextContent());
+
+                    List<Antwort> richtigeAntworte = new ArrayList<>();
+
+                    for (String antwortId : richtigeAntworteIds) {
+                        richtigeAntworte.add(new Antwort(Integer.parseInt(antwortId), moglischeAntworteListe.get(Integer.parseInt(antwortId))));
+                    }
+
+                    List<Antwort> moglicheAntworte = new ArrayList<>();
+
+                    for (int i = 0; i < moglischeAntworteListe.size(); i++) {
+                        moglicheAntworte.add(new Antwort(i, moglischeAntworteListe.get(i)));
+                    }
+
+//                    for (Antwort a : richtigeAntworte) {
+//                        System.out.println(a);
+//                    }
+//
+//                    System.out.println();
+//
+//                    for (Antwort a : moglicheAntworte) {
+//                        System.out.println(a);
+//                    }
+
+                    Frage neueFrage = new Frage(Integer.parseInt(id), dieEigentlicheFrage, richtigeAntworte, moglicheAntworte);
+
+                    fragen.add(neueFrage);
+                }
+            }
+//            for(Frage f : fragen) {
+//                System.out.println(f);
+//                System.out.println();
+//            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     /**

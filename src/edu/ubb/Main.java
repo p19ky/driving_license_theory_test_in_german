@@ -1,5 +1,6 @@
 package edu.ubb;
 
+import edu.ubb.models.FragebogenKategorieB;
 import edu.ubb.views.Prufung;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -23,10 +24,11 @@ public class Main extends Application{
 
     Stage window;
 
-    Scene sceneStart, scene2;
+    Scene sceneStart;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        FragebogenKategorieB fb = new FragebogenKategorieB(1, 1, 0, 0);
         window = primaryStage;
 
         Label titel = new Label("Führerschein Theorieprüfung");

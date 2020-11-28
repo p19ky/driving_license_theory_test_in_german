@@ -84,8 +84,7 @@
         </mogliche>
     </frage>
     <frage id="7">
-        <name>Ihr Pkw hat einen Defekt und ist nicht mehr fahrbereit. Was ist beim Abschleppen zu beachten?
-            Während des Abschleppens</name>
+        <name>Ihr Pkw hat einen Defekt und ist nicht mehr fahrbereit. Was ist beim Abschleppen zu beachten? Während des Abschleppens...</name>
         <richtige>
             <richtig>0</richtig>
             <richtig>2</richtig>
@@ -97,8 +96,7 @@
         </mogliche>
     </frage>
     <frage id="8">
-        <name>Wie müssen Sie sich in dieser Verkehrssituation verhalten?
-            Ich muss</name>
+        <name>Wie müssen Sie sich in dieser Verkehrssituation verhalten? Ich muss...</name>
         <richtige>
             <richtig>0</richtig>
         </richtige>
@@ -166,8 +164,7 @@
         </mogliche>
     </frage>
     <frage id="14">
-        <name>Ihr Kraftfahrzeug verliert etwas Öl. Wie viel Trinkwasser kann bereits durch einen Tropfen Öl ungenießbar werden?
-            Bis zu</name>
+        <name>Ihr Kraftfahrzeug verliert etwas Öl. Wie viel Trinkwasser kann bereits durch einen Tropfen Öl ungenießbar werden? Bis zu...</name>
         <richtige>
             <richtig>1</richtig>
         </richtige>
@@ -178,8 +175,7 @@
         </mogliche>
     </frage>
     <frage id="15">
-        <name>Auf einer Fahrbahn mit mehreren Fahrstreifen für eine Richtung endet ein Fahrstreifen. Wie haben Sie sich auf dem durchgehenden Fahrstreifen zu verhalten?
-            Ich muss</name>
+        <name>Auf einer Fahrbahn mit mehreren Fahrstreifen für eine Richtung endet ein Fahrstreifen. Wie haben Sie sich auf dem durchgehenden Fahrstreifen zu verhalten? Ich muss...</name>
         <richtige>
             <richtig>0</richtig>
         </richtige>
@@ -201,8 +197,7 @@
         </mogliche>
     </frage>
     <frage id="17">
-        <name>Ihr Fahrzeug ist eingeschneit. Was müssen Sie tun, bevor Sie losfahren?
-            Ich muss Eis und Schnee</name>
+        <name>Ihr Fahrzeug ist eingeschneit. Was müssen Sie tun, bevor Sie losfahren? Ich muss Eis und Schnee...</name>
         <richtige>
             <richtig>0</richtig>
             <richtig>1</richtig>
@@ -227,8 +222,7 @@
         </mogliche>
     </frage>
     <frage id="19">
-        <name>Vor Ihnen will ein großer Mähdrescher nach rechts abbiegen. Was ist richtig?
-            Der Mähdrescher</name>
+        <name>Vor Ihnen will ein großer Mähdrescher nach rechts abbiegen. Was ist richtig? Der Mähdrescher...</name>
         <richtige>
             <richtig>1</richtig>
             <richtig>2</richtig>
@@ -276,8 +270,7 @@
         </mogliche>
     </frage>
     <frage id="23">
-        <name>Worauf weist dieses Verkehrszeichen hin?
-            Auf Vorfahrt</name>
+        <name>Worauf weist dieses Verkehrszeichen hin? Auf Vorfahrt...</name>
         <richtige>
             <richtig>1</richtig>
         </richtige>
@@ -288,8 +281,7 @@
         </mogliche>
     </frage>
     <frage id="24">
-        <name>Worauf sollten Sie Mitfahrer vor dem Aussteigen hinweisen?
-            Darauf, dass</name>
+        <name>Worauf sollten Sie Mitfahrer vor dem Aussteigen hinweisen? Darauf, dass...</name>
         <richtige>
             <richtig>1</richtig>
             <richtig>2</richtig>
@@ -460,8 +452,7 @@
         </mogliche>
     </frage>
     <frage id="38">
-        <name>Welche Folge kann eine zu geringe Menge Kühlflüssigkeit im Motor haben?
-            Eine zu geringe Menge Kühlflüssigkeit kann</name>
+        <name>Welche Folge kann eine zu geringe Menge Kühlflüssigkeit im Motor haben? Eine zu geringe Menge Kühlflüssigkeit kann...</name>
         <richtige>
             <richtig>0</richtig>
             <richtig>2</richtig>
