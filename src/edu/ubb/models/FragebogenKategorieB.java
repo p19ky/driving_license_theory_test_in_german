@@ -9,7 +9,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.*;
-import java.util.stream.Collectors;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class FragebogenKategorieB {
     private Integer id;
@@ -17,6 +17,18 @@ public class FragebogenKategorieB {
     private Integer anzahlFalscheAntworten;
     private Integer anzahlRichtigeAntworten;
     private List<Frage> fragen;
+
+    /**
+     * Copy Constructor
+     * @param another die andere FragebogenKategorieB Instanz
+     */
+    public FragebogenKategorieB(FragebogenKategorieB another) {
+        this.id = another.getId();
+        this.fragebogennummer = another.getFragebogennummer();
+        this.anzahlFalscheAntworten = another.getAnzahlFalscheAntworten();
+        this.anzahlRichtigeAntworten = another.getAnzahlRichtigeAntworten();
+        this.fragen = another.getFragen();
+    }
 
     public FragebogenKategorieB(Integer id, Integer fragebogennummer, Integer anzahlFalscheAntworten, Integer anzahlRichtigeAntworten) {
         this.id = id;
@@ -35,16 +47,12 @@ public class FragebogenKategorieB {
      */
     public List<Frage> getZuffaligeFragen(Integer anzahlFragen) {
         var listVonResultierendeFragen = new ArrayList<Frage>();
-        var listVonFragen = new ArrayList<Frage>();
-        Collections.copy(listVonFragen, fragen);
-
-        Random rand = new Random();
+        var listVonFragen = new ArrayList<>(fragen);
 
         for (int i = 0; i < anzahlFragen; i++) {
-            int randomIndex = rand.nextInt(listVonFragen.size());
-            Frage randomElement = listVonFragen.get(randomIndex);
-            listVonFragen.remove(randomIndex);
-            listVonResultierendeFragen.add(randomElement);
+            int randomNum = ThreadLocalRandom.current().nextInt(0, listVonFragen.size());
+            listVonResultierendeFragen.add(listVonFragen.get(randomNum));
+            listVonFragen.remove(randomNum);
         }
 
         return listVonResultierendeFragen;
@@ -68,19 +76,14 @@ public class FragebogenKategorieB {
 
                 Node nNode = nList.item(temp);
 
-//                System.out.println("\nCurrent Element :" + nNode.getNodeName());
-
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
                     Element eElement = (Element) nNode;
 
                     String id = eElement.getAttribute("id");
                     String dieEigentlicheFrage = eElement.getElementsByTagName("name").item(0).getTextContent();
-                    List<String> richtigeAntworteIds = Arrays.asList(eElement.getElementsByTagName("richtige").item(0).getTextContent().replaceAll("\\D+", "").split(""));
+                    String[] richtigeAntworteIds = eElement.getElementsByTagName("richtige").item(0).getTextContent().replaceAll("\\D+", "").split("");
                     List<String> moglischeAntworteListe = Arrays.asList(eElement.getElementsByTagName("mogliche").item(0).getTextContent().trim().replaceAll("  +", "").split("\n"));
-
-//                    System.out.println("frage id : " + eElement.getAttribute("id"));
-//                    System.out.println("Name : " + eElement.getElementsByTagName("name").item(0).getTextContent());
 
                     List<Antwort> richtigeAntworte = new ArrayList<>();
 
@@ -94,25 +97,11 @@ public class FragebogenKategorieB {
                         moglicheAntworte.add(new Antwort(i, moglischeAntworteListe.get(i)));
                     }
 
-//                    for (Antwort a : richtigeAntworte) {
-//                        System.out.println(a);
-//                    }
-//
-//                    System.out.println();
-//
-//                    for (Antwort a : moglicheAntworte) {
-//                        System.out.println(a);
-//                    }
-
                     Frage neueFrage = new Frage(Integer.parseInt(id), dieEigentlicheFrage, richtigeAntworte, moglicheAntworte);
 
                     fragen.add(neueFrage);
                 }
             }
-//            for(Frage f : fragen) {
-//                System.out.println(f);
-//                System.out.println();
-//            }
         }
         catch (Exception e) {
             e.printStackTrace();
