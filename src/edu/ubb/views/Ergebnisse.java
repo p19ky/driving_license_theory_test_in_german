@@ -11,6 +11,18 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class Ergebnisse {
+
+    /**
+     * Zeigt der Benutzer seine Ergebnisse falls
+     *  -zeit ist um.
+     *  -ist fertig mit fragebogen.
+     *  -mehr als 4 falsche antworte.
+     * @param anzahlFalsche Anzahl der falsche Antworte
+     * @param anzahlRichtige Anzahl der richtige Antworte
+     * @param mainWindow die haupt stage des Apps.
+     * @param startScene die Haupt Menu scene des Apps.
+     * @param zeitIstUm Ein boolean der sagt weder die zeit ist um oder nicht.
+     */
     public static void display(Integer anzahlFalsche, Integer anzahlRichtige, Stage mainWindow, Scene startScene, boolean zeitIstUm) {
         Stage window = new Stage();
 

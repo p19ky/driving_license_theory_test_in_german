@@ -23,8 +23,18 @@ import java.util.List;
 
 public class Prufung {
 
+    /**
+     * Der Index der aktuelle Frage von das Fragebogen.
+     */
     public static int indexDerAktuelleFrage = 0;
 
+    /**
+     * Zeigt der Benutzer die UI mit die Fragen.
+     * @param window die haupt stage des Apps.
+     * @param sceneStart die Haupt Menu scene des Apps.
+     * @param fragebogen die aktuelle fragebogen.
+     * @param dieZufalligeFragen die zufallige Fragen der aktuelle fragebogen.
+     */
     public static void display(Stage window, Scene sceneStart, FragebogenKategorieB fragebogen, List<Frage> dieZufalligeFragen) {
 
         final FragebogenKategorieB fragebogenKategorieB = new FragebogenKategorieB(fragebogen);
@@ -65,8 +75,6 @@ public class Prufung {
                 listVonMoglicheAntworte.add(newCheckBox);
             }
 
-            List<Antwort> richtigeAntworteAntwortListe = new ArrayList<>(zufalligeFragen.get(indexDerAktuelleFrage).getRichtigeAntworte());
-//            richtigeAntworteAntwortListe.forEach(System.out::println);
 
             VBox layout = new VBox(20);
             layout.getChildren().addAll(imageView, frage);
