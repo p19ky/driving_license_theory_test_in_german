@@ -52,7 +52,9 @@ public class Prufung {
             imageView.setFitWidth(575);
             imageView.setPreserveRatio(true);
 
-            Label frage = new Label("Frage: " + zufalligeFragen.get(indexDerAktuelleFrage).getFrage());
+            fragebogenKategorieB.setFragebogennummer(indexDerAktuelleFrage + 1);
+
+            Label frage = new Label(fragebogenKategorieB.getFragebogennummer() + ". Frage: " + zufalligeFragen.get(indexDerAktuelleFrage).getFrage());
             frage.setStyle("-fx-font-weight: bold; -fx-wrap-text: true; -fx-text-fill: orange; -fx-font-size: 16px");
 
             List<CheckBox> listVonMoglicheAntworte = new ArrayList<>();
@@ -64,7 +66,7 @@ public class Prufung {
             }
 
             List<Antwort> richtigeAntworteAntwortListe = new ArrayList<>(zufalligeFragen.get(indexDerAktuelleFrage).getRichtigeAntworte());
-            richtigeAntworteAntwortListe.forEach(System.out::println);
+//            richtigeAntworteAntwortListe.forEach(System.out::println);
 
             VBox layout = new VBox(20);
             layout.getChildren().addAll(imageView, frage);
